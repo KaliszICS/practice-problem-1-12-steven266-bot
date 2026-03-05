@@ -36,21 +36,18 @@ public class PracticeProblem {
 		//Write question 3 code here
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("");
-		String num = scanner.nextLine();
-		double radius = Double.parseDouble(num);
-		double area = 3.14 * radius * radius;
-	    System.out.println(area);
+		double radius =scanner.nextDouble();
+	    System.out.println(radius*radius*3.14);
 	}
 
 	public static void q4() {
 		//Write question 4 code here
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("");
-		String num = scanner.nextLine();
-		double number = Double.parseDouble(num);
-		number = number * 12;
-		number = Math.floor(number);
-		System.out.println((int)number);
+		double num = scanner.nextDouble();
+		double number = num * 12;
+		double number1 = Math.floor(number);
+		System.out.println(number1);
 
 	}
 
